@@ -28,9 +28,9 @@ caption{
 body{
   color: #000000;
   font-size: 16px;
-  font-family: Andika;
+  font-family: Andika,sans-serif;
   margin: 1.2em;
-  background-image: url('/Users/cy0801/Desktop/si539/hw4-2021-main/images/pigeon-background.JPEG');
+  background-image: url('../images/pigeon-background.JPEG');
   background-color: #DDDDDD;
   background-size: cover ;
   background-position: center;
@@ -51,7 +51,7 @@ p{
 
 a{
   font-size: 16px;
-  color: #c12258;
+  color: #B21F50;
   text-decoration-style: wavy;
 }
 
@@ -73,13 +73,12 @@ td{
 
 
 .colhead{
-  min-height: 125px;
+  min-width: 125px;
+  padding: 10px;
   text-align: center;
   color: #FFFFFF;
   background-color: #7e0825;
-  padding: 10px;
   text-transform: uppercase;
-
 }
 
 .rowhead{
@@ -107,7 +106,7 @@ tr:nth-child(2n){
 
 
 tr:hover{
-  background-color:rgba(126, 8, 37, 0.3);
+  background-color:rgba(126, 8, 37, 0.25);
 }
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
@@ -133,8 +132,11 @@ tbody tr:last-child td:last-child{
 
 
 footer{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   min-height: 75px;
-  width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
