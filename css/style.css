@@ -1,0 +1,142 @@
+/*STARTER CODE*/
+/*
+We have started some of the selectors for you.
+For others we have provided hints on what the selectors should be.
+There are some missing selectors.
+Make sure to learn what the starter code does!!
+*/
+
+/*STARTER CODE - DO NOT CHANGE*/
+main{
+  margin-bottom: 100px;
+}
+
+caption{
+  margin:5px 0px;
+}
+
+/* If you decide to uncomment this code, comment it back for the Autograder. */
+/* tr{
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+} */
+
+/*END STARTER CODE*/
+
+
+
+body{
+  color: #000000;
+  font-size: 16px;
+  font-family: Andika;
+  margin: 1.2em;
+  background-image: url('/Users/cy0801/Desktop/si539/hw4-2021-main/images/pigeon-background.JPEG');
+  background-color: #DDDDDD;
+  background-size: cover ;
+  background-position: center;
+  /*Req 1*/
+}
+
+h1{
+  color: #c12258;
+  font-size: 32px;
+  text-align: center;
+  line-height: 2 ;
+  /*Req 2*/
+}
+
+p{
+  padding-top: 15px;
+}
+
+a{
+  font-size: 16px;
+  color: #c12258;
+  text-decoration-style: wavy;
+}
+
+/*Req 5*/
+
+/*Add selector and rule here*/
+*:focus{
+  border:3px dashed #417243;
+}
+
+
+td{
+  text-align: center;
+  border-top: 2px solid #000000;
+  padding: 10px;
+  margin: 0px;
+
+}
+
+
+.colhead{
+  min-height: 125px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #7e0825;
+  padding: 10px;
+  text-transform: uppercase;
+
+}
+
+.rowhead{
+  border-right: 2px solid #000000;
+  border-top: 2px solid #000000;
+  padding: 10px;
+}
+
+
+table{
+  border: 5px solid #000000;
+  padding-top : 2px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+
+tr{
+  border-top: 2px solid #000000;
+}
+
+tr:nth-child(2n){
+  background-color:#D1D1D1;
+}
+
+
+tr:hover{
+  background-color:rgba(126, 8, 37, 0.3);
+}
+/* I gave you the selector, but not the property-value pair. 
+You can use Inspect Element or your editor to find selectors. */
+thead tr:first-child th:first-child{
+  border-radius: 50px 0px 0px 0px;
+}
+
+thead tr:first-child th:last-child{
+  border-radius: 0px 50px 0px 0px;
+}
+
+tbody tr:last-child th{
+  border-radius: 0px 0px 0px 50px;
+}
+
+tbody tr:last-child td:last-child{
+  border-radius: 0px 0px 50px 0px;
+}
+
+
+
+/*Add selectors and rules here*/
+
+
+footer{
+  min-height: 75px;
+  width:100%;
+  background:#000000;
+  text-align:center;
+  color: #FFFFFF;
+  margin: 0px;
+}
